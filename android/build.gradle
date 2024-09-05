@@ -38,6 +38,13 @@ android {
     lintOptions {
         disable 'InvalidPackage'
     }
+    
+	buildFeatures {
+        buildConfig true
+    }
+
+    namespace 'carnegietechnologies.gallery_saver'
+    
 }
 
 dependencies {
